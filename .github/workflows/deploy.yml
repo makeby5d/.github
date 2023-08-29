@@ -29,5 +29,4 @@ jobs:
           local-dir: ./
           args: --delete
           exclude: .git*
-          state-name: ${{ github.event.pull_request.number }}
           log-level: verbose
